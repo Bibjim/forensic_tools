@@ -1,0 +1,19 @@
+Code via a Udemy tutorial
+
+Exploitation of EXIF pdf and photos
+
+Python 3.10 environment
+python3 -m pip install -r requirements.txt
+
+python3 pdf_meta.py <option> <file>
+
+Options for pdf file:
+-pdf
+-str
+
+Options for photos:
+-exif
+-gps
+
+Exemple:
+python3 pdf_meta.py -gps mcafee.jpg
